@@ -33,10 +33,10 @@ Data set contains multiple files that are necessary in order to load raw data.
 * Load features.txt file into R. Field position and name are loaded.
 * Create a new column in data frame that would contain the descriptive name.
 * Transform name values into descriptive names and assign these value to a new column based on the following criteria:
-> Lower case.
-> No spaces.
-> No hyphens.
-> No parentheses.
+1. Lower case.
+2. No spaces.
+3. No hyphens.
+4. No parentheses.
 * Categorize records based on whether they are related to mean or standard deviation.
 * Create a vector of indexes of such feild names.
 
